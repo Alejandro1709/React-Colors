@@ -42,7 +42,7 @@ class ColorBox extends Component {
             <p className={classes.copyText}>{this.props.background}</p>
           </div>
           <div className='copy-container'>
-            <div className='box-content'>
+            <div className={classes.boxContent}>
               <span className={classes.colorName}>{name}</span>
             </div>
             <button className={classes.copyButton}>Copy</button>
